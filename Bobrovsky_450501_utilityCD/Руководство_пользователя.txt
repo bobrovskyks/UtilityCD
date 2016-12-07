@@ -16,3 +16,5 @@ sudo apt-get install mpg123 mpg321 vorbis-tools
 Порядок:
 1.) make
 2.) ./gtk
+
+НА некоторых ПК надо поменять #define SG_DEV "/dev/sg1" на #define SG_DEV "/dev/sg0"
